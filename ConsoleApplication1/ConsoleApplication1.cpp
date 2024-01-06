@@ -266,7 +266,7 @@ void writeResultsToFile(const vector<Process>& processes, const string& method, 
 }
 
 int main(int argc, char* argv[]) {
-    string inputFile = "intput.txt";
+    string inputFile = "input.txt";
     string outputFile = "output.txt";
     string choiceOfSchedulingMethod;
     int timeQuantum;
@@ -361,7 +361,7 @@ int main(int argc, char* argv[]) {
             else if (choiceOfSchedulingMethod == "Priority") {
                 priorityScheduling(processes);
                 displayResults(processes, "Priority Scheduling");
-                writeResultsToFile(processes, "Proirity Scheduling", outputFile);
+                writeResultsToFile(processes, "Priority Scheduling", outputFile);
             }
             else if (choiceOfSchedulingMethod == "RoundRobin") {
                 // Assuming timeQuantum holds the value for Round Robin
@@ -376,7 +376,7 @@ int main(int argc, char* argv[]) {
             }
             else if (choiceOfSchedulingMethod == "P Priority") {
                 preemptivePriority(processes);
-                displayResults(processes, "Preemtive Priority Scheduling");
+                displayResults(processes, "Preepmtive Priority Scheduling");
                 writeResultsToFile(processes, "Preemptive Proirity Scheduling", outputFile);
             }
             else {
