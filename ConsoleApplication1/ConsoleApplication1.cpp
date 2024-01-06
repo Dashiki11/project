@@ -4,6 +4,7 @@
 #include <string>
 #include <sstream>
 #include <algorithm>
+#include <climits>
 
 using namespace std;
 
@@ -91,6 +92,7 @@ void preemptiveSJF(vector<Process>& processes) {
     int n = processes.size();
     int currentTime = 0;
     int completed = 0;
+    int maxValue = INT_MAX;
     vector<int> remaining_time(n);
 
     for (int i = 0; i < n; ++i) {
@@ -270,6 +272,14 @@ int main(int argc, char* argv[]) {
     int timeQuantum;
     // Parse command-line arguments
     // Use -f for input file and -o for output file
+    // Read command line arguments for input and output file names
+    if (argc != 5 || string(argv[1]) != "-f" || string(argv[3]) != "-o") {
+        cerr << "Usage: ./scheduler -f input.txt -o output.txt" << endl;
+        return 1;
+    } else {
+        inputFile = argv[2];
+        outputFile = argv[4];
+    }
 
     vector<Process> processes = readInputFromFile(inputFile);
 
