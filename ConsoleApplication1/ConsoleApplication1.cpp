@@ -327,7 +327,7 @@ int main(int argc, char* argv[]) {
             }
         case 2:
             cout << "Choose Preemptive Scheduling Method:\n";
-            cout << "1) Preemtive Shortest Job First (PSJF)\n";
+            cout << "1) Preemptive Shortest Job First (PSJF)\n";
             cout << "2) Preemptive Priority Scheduling\n";
             int preemtivechoice;
             cin >> preemtivechoice;
@@ -376,8 +376,8 @@ int main(int argc, char* argv[]) {
             }
             else if (choiceOfSchedulingMethod == "P Priority") {
                 preemptivePriority(processes);
-                displayResults(processes, "Preepmtive Priority Scheduling");
-                writeResultsToFile(processes, "Preemptive Proirity Scheduling", outputFile);
+                displayResults(processes, "Preemptive Priority Scheduling");
+                writeResultsToFile(processes, "Preemptive Priority Scheduling", outputFile);
             }
             else {
                 cout << "Please choose a scheduling method first!" << endl;
