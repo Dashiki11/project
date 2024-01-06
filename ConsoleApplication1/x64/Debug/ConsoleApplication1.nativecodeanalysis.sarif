@@ -1,0 +1,1447 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'timeQuantum'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                },
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'timeQuantum' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 279,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 281,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 282,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 283,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 284,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 287,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'option' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 290,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 292,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 293,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 294,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 295,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 296,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 298,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'methodChoice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 299,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 300,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 319,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 322,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 323,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 325,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'preemtivechoice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 326,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 327,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 387,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 279,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 281,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 282,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 283,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 284,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 287,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'option' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 290,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 292,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 293,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 294,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 295,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 296,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 298,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'methodChoice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 299,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 300,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 319,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 322,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 323,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 325,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'preemtivechoice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 326,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 327,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 387,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 279,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 281,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 282,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 283,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 284,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 287,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'option' ) resolves to case 3: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 337,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 47
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 351,
+                            "startColumn": 47
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 47
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'timeQuantum' is an In/Out argument to 'roundRobin' (declared on line 186)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 359,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 359,
+                            "startColumn": 86
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 359,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 359,
+                            "startColumn": 84
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 359,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 359,
+                            "startColumn": 109
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 359,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 90
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 88
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 113
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "'timeQuantum' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Digikey/source/repos/ConsoleApplication1/ConsoleApplication1.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4722a9ca60075f2ac7c0670077d1f04184c6179d0fefd2ce5a6bcb3a13903075"
+          }
+        }
+      ]
+    }
+  ]
+}
