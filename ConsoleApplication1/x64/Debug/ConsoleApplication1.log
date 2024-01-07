@@ -1,8 +1,0 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\Digikey\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(54,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Digikey\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(72,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Digikey\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(91,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Digikey\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(130,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Digikey\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(149,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Digikey\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(187,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  ConsoleApplication1.vcxproj -> C:\Users\Digikey\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
